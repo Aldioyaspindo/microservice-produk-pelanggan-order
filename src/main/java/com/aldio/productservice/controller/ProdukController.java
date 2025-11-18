@@ -1,4 +1,4 @@
-package com.delonic.productservice.controller;
+package com.aldio.productservice.controller;
 
 
 import java.util.List;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.delonic.productservice.model.Produk;
-import com.delonic.productservice.services.ProdukService;
+import com.aldio.productservice.model.Produk;
+import com.aldio.productservice.services.ProdukService;
 
 @RestController
 @RequestMapping("/api/produk")

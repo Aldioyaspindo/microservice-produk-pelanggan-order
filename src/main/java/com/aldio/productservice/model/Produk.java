@@ -1,4 +1,4 @@
-package com.delonic.productservice.model;
+package com.aldio.productservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

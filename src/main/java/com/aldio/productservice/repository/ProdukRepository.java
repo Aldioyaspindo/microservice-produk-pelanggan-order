@@ -1,9 +1,10 @@
-package com.delonic.productservice.repository;
+package com.aldio.productservice.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.delonic.productservice.model.Produk;
+
+import com.aldio.productservice.model.Produk;
 
 @Repository
 public interface ProdukRepository extends JpaRepository<Produk, Long> {

@@ -1,11 +1,12 @@
-package com.delonic.productservice.services;
+package com.aldio.productservice.services;
 
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.delonic.productservice.model.Produk;
-import com.delonic.productservice.repository.ProdukRepository;
+
+import com.aldio.productservice.model.Produk;
+import com.aldio.productservice.repository.ProdukRepository;
 
 @Service
 public class ProdukService {
