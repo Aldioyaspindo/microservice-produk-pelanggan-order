@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: order-service
+  labels:
+    app: order-service
+spec:
+  containers:
+    - name: order-service
+      image: order-service:1.0        # Pastikan sudah build: docker build -t order-service:latest .
+      imagePullPolicy: Never            # Wajib untuk Docker Desktop agar tidak mencari ke Docker Hub
+      ports:
+        - containerPort: 8083           # Port aplikasi Spring Boot
+      env:
+        - name: SERVER_PORT
+          value: "8083"
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://localhost:8761/eureka/"
+
+      # Optional: jika ingin lihat H2 console
+      # H2 console jalan di /h2-console
