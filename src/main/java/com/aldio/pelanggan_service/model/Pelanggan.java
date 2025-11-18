@@ -1,4 +1,4 @@
-package com.delonic.pelanggan_service.model;
+package com.aldio.pelanggan_service.model;
 
 
 

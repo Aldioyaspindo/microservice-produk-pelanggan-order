@@ -1,4 +1,4 @@
-package com.delonic.pelanggan_service.controller;
+package com.aldio.pelanggan_service.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.delonic.pelanggan_service.model.Pelanggan;
-import com.delonic.pelanggan_service.services.PelangganService;
+import com.aldio.pelanggan_service.model.Pelanggan;
+import com.aldio.pelanggan_service.services.PelangganService;
 
 @RestController
 @RequestMapping("/api/pelanggan")
